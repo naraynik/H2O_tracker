@@ -1,17 +1,36 @@
-# water_tracker
+💧 H2O Tracker
 
-A new Flutter project.
+A Flutter-based mobile application designed to help users monitor and maintain their daily water intake with personalized goals, reminders, and analytics.
 
-## Getting Started
+📱 Features
+✅ Personalized daily water intake goal (based on weight, height, age, activity level)
+📊 Interactive dashboard with real-time progress tracking
+➕ Easy water intake logging
+🕒 History tracking of daily consumption
+📈 Weekly analytics for hydration patterns
+🔔 Smart notification reminders
+🌙 Modern dark-themed UI
+💾 Offline data storage using SharedPreferences & SQLite
+🛠️ Tech Stack
+Framework: Flutter
+Language: Dart
+Database: SQLite
+Local Storage: SharedPreferences
+Notifications: Flutter Local Notifications
+🚀 Getting Started
+Prerequisites
+Flutter SDK installed
+Android Studio / VS Code
+Emulator or physical device
+Installation
+# Clone the repository
+git clone https://github.com/your-username/h2o-tracker.git
 
-This project is a starting point for a Flutter application.
+# Navigate to project folder
+cd h2o-tracker
 
-A few resources to get you started if this is your first Flutter project:
+# Install dependencies
+flutter pub get
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Run the app
+flutter run
